@@ -1,0 +1,64 @@
+path: /media/chenqunWorkSpace/Project_R/code/YOLOv5/datasets/ABData/  # dataset root dir
+train: images/20220608_train  # train images (relative to 'path') 128 images
+val: images/20220608_val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+names:
+  0: liver_FPH
+  1: IVC_FPH
+  2: PV_FPH
+  3: liver_SPH
+  4: IVC_SPH
+  5: LHV_SPH
+  6: MHV_SPH
+  7: RHV_SPH
+  8: ABAO_LL
+  9: DIAPH_LL
+  10: liver_LL
+  11: liver_RL
+  12: IVC_RL
+  13: RHV_RL
+  14: PV_RL
+  15: DIAPH_RL
+  16: liver_LPV
+  17: IS_LPV
+  18: GB_LAGB
+  19: liver_LAGB
+  20: GB_SAGB
+  21: liver_SAGB
+  22: liver_LAEHBD
+  23: PV_LAEHBD
+  24: EHBD_LAEHBD
+  25: SP_LASP
+  26: SV_LASP
+  27: IVC_LAPA
+  28: PA_LAPA
+  29: PV_LAPA
+  30: SV_LAPA
+  31: PA_SAPA
+  32: SMV_SAPA
+  33: IVC_LAIVC
+  34: liver_LAIVC
+  35: DIAPH_LAIVC
+  36: PAV_SAPA
+  37: PAD_SAPA
+  38: liver_FPH_LAEHBD
+  39: liver_RL_SPH_LPV
+  40: liver_LL_LAIVC
+  41: PV_FPH_LAEHBD
+  42: DIAPH_LL_LAIVC
+  43: IVC_RL_SPH
+  44: RHV_RL_SPH
+
+
+# # Classes
+# nc: 45  # number of classes
+# names: ['liver_FPH', 'IVC_FPH', 'PV_FPH', 'liver_SPH', 'IVC_SPH',
+#        'LHV_SPH', 'MHV_SPH', 'RHV_SPH', 'ABAO_LL', 'DIAPH_LL', 'liver_LL',
+#        'liver_RL', 'IVC_RL', 'RHV_RL', 'PV_RL', 'DIAPH_RL', 'liver_LPV',
+#        'IS_LPV', 'GB_LAGB', 'liver_LAGB', 'GB_SAGB', 'liver_SAGB',
+#        'liver_LAEHBD', 'PV_LAEHBD', 'EHBD_LAEHBD', 'SP_LASP', 'SV_LASP',
+#        'IVC_LAPA', 'PA_LAPA', 'PV_LAPA', 'SV_LAPA', 'PA_SAPA', 'SMV_SAPA',
+#        'IVC_LAIVC', 'liver_LAIVC', 'DIAPH_LAIVC', 'PAV_SAPA', 'PAD_SAPA',
+#        'liver_FPH_LAEHBD', 'liver_RL_SPH_LPV', 'liver_LL_LAIVC',
+#        'PV_FPH_LAEHBD', 'DIAPH_LL_LAIVC', 'IVC_RL_SPH', 'RHV_RL_SPH']  # class names
